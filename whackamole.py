@@ -8,7 +8,7 @@ def main():
         pygame.init()
         # You can draw the mole with this snippet:
         # screen.blit(mole_image, mole_image.get_rect(topleft=(x,y)))
-        image = pygame.image.load("whackamole-template/mole.png")
+        image = pygame.image.load("mole.png")
         mole = [0, 0]
         screen = pygame.display.set_mode((640, 512))
         clock = pygame.time.Clock()
